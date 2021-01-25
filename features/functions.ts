@@ -2,7 +2,7 @@
 function getLincerossa(a: string) : string{
   return `${a} + rossa`
 }
-
+const test: string = "marci"
 // function expression
 const lincerossa : (a:string) => string = (a) => {
   return `${a} + rossa`
