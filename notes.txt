@@ -1,0 +1,20 @@
+typescript = js + type system
+
+
+1. catch error during developement
+2. type annotations
+3. ts complier does not provide any performance optimization
+
+
+tsc (npm install -g typescript ts-node)
+
+
+interface: structure of objects
+type: it refers to a list of all the properties of any value
+
+
+types:
+  primitive (boolean, string,...) + object types (functions, arrays,....)
+
+TYPE ANNOTATIONS: the developer tells to typescript the type
+TYPE INFERENCES: declaration + initialisation. typescript understand the type
