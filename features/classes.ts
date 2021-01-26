@@ -92,3 +92,34 @@ class CustomSupercar2 {
     return 100
   }
 }
+
+
+
+
+
+
+
+
+
+class Outer {
+  constructor(protected parentItem: string){}
+  protected getOuterParentItem(): string {
+    return this.parentItem
+  }
+}
+
+class Inner extends Outer {
+
+  constructor(public outerItem: string, parentItem: string){
+    super(parentItem)
+  }
+  public getInnerFoo() : string {
+    return `${this.getOuterParentItem()} AND ${this.outerItem}`
+  }
+}
+
+const innerInstance = new Inner("marcello", "luatti")
+console.log("instance:", innerInstance.getInnerFoo())
+
+
+
