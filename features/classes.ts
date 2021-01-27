@@ -123,3 +123,8 @@ console.log("instance:", innerInstance.getInnerFoo())
 
 
 
+
+
+/// RESTRICTING ACCESS TO CLASS METHODS USING GENERAL INTERFACES!!!! Super Important
+// Interfaces could be more generics with less types
+
